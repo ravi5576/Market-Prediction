@@ -1,9 +1,8 @@
-streamlit
+
 pandas
 numpy
 matplotlib
-keras
-tensorflow
+tensorflow==2.15.0
 yfinance
 scikit-learn
 flask

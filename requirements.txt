@@ -6,3 +6,6 @@ keras
 tensorflow
 yfinance
 scikit-learn
+flask
+gunicorn
+

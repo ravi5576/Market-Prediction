@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 import pandas as pd
 import numpy as np
@@ -295,5 +297,4 @@ def back_to_index():
     return redirect(url_for("index"))
 
 if __name__ == "__main__":
-    app.run(debug=True)
-
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
